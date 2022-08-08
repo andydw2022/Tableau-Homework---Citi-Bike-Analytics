@@ -8,8 +8,7 @@ because I am using the public version. The only options to save on my copy of Ta
 Save to Tableau Public...
 Save to Tableau Public As ...
 
-Just to be on the safe side I have taken screen shots and uploaded them in the folder Images.
-
+Just to be on the safe side I have taken screen shots and uploaded them in the 2  Image folders
 ## Background
 
 ![Citi-Bikes](Images/citi-bike-station-bikes.jpg)
