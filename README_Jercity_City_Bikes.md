@@ -9,6 +9,8 @@ Save to Tableau Public...
 Save to Tableau Public As ...
 
 Just to be on the safe side I have taken screen shots and uploaded them in the 2  Image folders
+    Andys_Tableau_Public_Screenshots
+    Andys_Tableau_Worksheet_Screenshots
 ## Background
 
 ![Citi-Bikes](Images/citi-bike-station-bikes.jpg)
