@@ -1,7 +1,5 @@
 # Tableau Homework - Citi Bike Analytics
 
-*Access Homework-Tableau visualisations by using this url : https://public.tableau.com/app/profile/andy2589
-
 Please note I was not able to save to my local drive in .twbx format using save as...
 because I am using the public version. The only options to save on my copy of Tableau are:
 
@@ -9,6 +7,17 @@ Save to Tableau Public...
 Save to Tableau Public As ...
 
 Just to be on the safe side I have taken screen shots and uploaded them in the folder Images.
+There are 3 main visualisations I have submitted for this homework:
+
+## Story Board City Bike usage in 2019 in Jersey City
+url : https://public.tableau.com/shared/QWZTJSQWD?:display_count=n&:origin=viz_share_link
+
+## Dashboard : Usage by age, gender, trip  & user types
+url : https://public.tableau.com/views/DashboardUsagebyagegendertripusertypes/DashboardofBikeusagebyagegendertriptotalsandusertypes?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link
+
+## Dashboard : Usage by Start and End Stations
+url : https://public.tableau.com/views/DashboardUsagebyStartandEndStations_16606140386380/DashboardUsagebyStartandEndStations?:language=en-GB&:display_count=n&:origin=viz_share_link
+
 
 ## Background
 
@@ -66,22 +75,29 @@ A new column for month was added and all 12 files were then aggreagated into 1 f
 A new column for Gender name was added  with values of 'Female', 'Male', 'Unknown'
 A another new column for Age calculated using 2019 - year of birth.
 
-## Visualisations for Jersey City in 2019
+## Tableau Public Visualisations for Jersey City in 2019
 
-Dashboard Usage by age,  gender, total trips and user types
--------------------------------------------------------------
+Dashboard : Usage by age, gender, trip totals & user types
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-This dashboard gives an overall picture of bike patronage for 2019 for Jersey City
+*Access this Tableau DashBoard visualisations by using this url:
+https://public.tableau.com/views/DashboardUsagebyagegendertripusertypes/DashboardofBikeusagebyagegendertriptotalsandusertypes?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link
+
+This dashboard contains 4 visualisations of bike patronage for 2019 for Jersey City
 
     1. Trip counts by gender per month
     2. Total Trip counts per month
     3. User Types per month
     4. Average Distance covered by riders by age (5 yearly brackets). Contains age anomalies. The reason could be data entry error, privacy concerns or weird sense of humour.
 
-Dashboard Usage Start and End Stations 
----------------------------------------
+Dashboard : Usage by Start and End Stations
++++++++++++++++++++++++++++++++++++++++++++
 
-This dashboard gives an overall picture of bike patronage for 2019 for Jersey City
+*Access this Tableau DashBoard visualisations by using this url:
+https://public.tableau.com/views/DashboardUsagebyStartandEndStations_16606140386380/DashboardUsagebyStartandEndStations?:language=en-GB&:display_count=n&:origin=viz_share_link
+
+
+This dashboard contains 4 visualisations of bike patronage for 2019 for Jersey City
 
     1. Trip counts by gender per month
     2. Total Trip counts per month
@@ -89,18 +105,51 @@ This dashboard gives an overall picture of bike patronage for 2019 for Jersey Ci
     4. Average Distance covered by riders by age (5 yearly brackets). Contains age anomalies. Some ages over 100! The reason could be data entry error, privacy concerns or weird sense of humour.
 
 
-1. Usage by Customer Type per month
-------------------------------------
-Subscriber usage far outnumbers casual customer patronage but comparison between months for usage is different. Top 3 months for casual customer usage occurs in July, August and September. Whereas the top 3 months for suscriber ride is in August, September, October. This could be explained by tourist numbers who would most likely be casual customers rather than commuters or college students.
+Story Board City Bike usage in 2019 in Jersey City
++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-2. Count of trips, total distance (km) and average trip duration for 2019
---------------------------------------------------------------------------
-Pretty simple statistic shows that most popular months for bike hire are June, July, Aug and Sep whereas Dec, Jan and Feb are the lowest. Most probably explanation is the weather.
+*Access this Tableau StoryBoard visualisations by using this url:
+https://public.tableau.com/shared/QWZTJSQWD?:display_count=n&:origin=viz_share_link
 
-3. Station Start Points by number of trip starts
----------------------------------------------------
-In this bar chart you can see that being the top 10 starting point in terms of trip starts are:
+This StoryBoard contains 13 visualisations of bike patronage for 2019 for Jersey City
 
+
+1. Total Trips taken by month. 
+--------------------------------------
+This gives an overall picture of usage of bike
+trips taken regardless of age, gender or user type.
+Most trips were undertaken in the warmer months of July, August and September
+
+2. Trips taken per month by gender.
+---------------------------------------------- 
+Males account for the overall majority of usage across all months.
+However there are quite a few riders who either did not or chose to not reveal
+their gender.
+
+3. Comparison between Subscribers and Casual Customers
+---------------------------------------------------------------------------------
+Here we see that the main users of the system 
+are Subscribers well ahead of casual customer.
+Usage split into months. Subscribers are most likely daily commuters
+
+4. Trips by age in 5 year groups
+-----------------------------
+In this chart we see the ages in 5 year brackets of riders
+and the average distance covered in km. 
+Notice the ages above 80.
+Something not quite right with the data recorded here. 
+30-35 year olds ride on average further than any other age group
+
+5. Trips by individual age
+-----------------------
+In this chart we see the ages ungrouped. 
+There is a statistic that really stands out and
+that is the number of 50 year olds using the bikes.
+No data available that might explain this anomaly
+
+6. This bar chart shows the popularity of station start points for trips.  	
+---------------------------------------------------------------------------
+The top 10 stations are : 
     1. Grove St PATH is by far the most popular starting point followed by :
     2. Hamilton Park
     3. Sip Ave
@@ -112,11 +161,47 @@ In this bar chart you can see that being the top 10 starting point in terms of t
     9. City Hall
     10. Morris Canal
 
-Most likely reason for this is the proximity to Downtown Jersey City and most people work nearby. Whereas the bottom 10 start points are outside of downtown Jersey City, possibly more suburban than commercial areas.
 
-4. Station End Points by number of trip ends
----------------------------------------------
-In this bar chart you can see that being the top 10 ending point they are most likely commuters as it looks like most bike riders start and end their trips at the same point. Apart from Columus Drive. Also I noticed that a few trips ended in Manhattan but those numbers are quite low. They account for the bottom 10 end point of stations. Not many cross the river to end their trip.
+7. This map shows the popularity of station start points for trips. 	
+--------------------------------------------------
+The size of each marker indicates the number of trips started from this point. 
+The most popular starting points are in or close to the downtown area.	
+The top 10 stations are : 
+    1. Grove St PATH is by far the most popular starting point followed by :
+    2. Hamilton Park
+    3. Sip Ave
+    4. Harborside
+    5. Newport PATH
+    6. Marin Light Rail
+    7. Newport Pkwy
+    8. Newark Ave
+    9. City Hall
+    10. Morris Canal
+
+8. This bar chart shows the station end points by popularity for trips. 	
+---------------------------------------------------------------------------
+Interesting to note that almost all the end points coincide with the start points
+except for Columbus Dr at Exchange. I noticed some end points are in Manhattan but they
+are in the single digits mainly,
+The top 10 stations are : 
+    1. Grove St PATH is by far the most popular starting point followed by :
+    2. Hamilton Park
+    3. Sip Ave
+    4. Harborside
+    5. Newport PATH
+    6. Marin Light Rail
+    7. Columbus Dr at Exchange
+    8. Newport Pkwy
+    9. Newark Ave
+    10. City Hall
+
+
+
+9. This map shows the station end points by popularity. 	
+--------------------------------------------------------
+Looks like most bike riders start and end their trips at the same point. 
+Apart from Columus Drive. Also I noticed that a few trips ended in Manhattan
+but those numbers are quite low.The size of the markers reflect their usage.
 
     1. Grove St PATH is by far the most popular starting point followed by :
     2. Hamilton Park
@@ -129,67 +214,41 @@ In this bar chart you can see that being the top 10 ending point they are most l
     9. Newark Ave
     10. City Hall
 
-5. Station Start Points (Map Locations)
-----------------------------------------
-In this map you can see that being Jersey City data all the start points are in Jersey City. Top 10 starting point in terms of trip starts are. The size of the markers reflect their usage.
 
-    1. Grove St PATH is by far the most popular starting point followed by :
-    2. Hamilton Park
-    3. Sip Ave
-    4. Harborside
-    5. Newport PATH
-    6. Marin Light Rail
-    7. Newport Pkwy
-    8. Newark Ave
-    9. City Hall
-    10. Morris Canal
-
-6. Station End Points (Map Locations)
-------------------------------------
-Looks like most bike riders start and end their trips at the same point. Apart from Columus Drive. Also I noticed that a few trips ended in Manhattan but those numbers are quite low.The size of the markers reflect their usage.
-
-    1. Grove St PATH is by far the most popular starting point followed by :
-    2. Hamilton Park
-    3. Sip Ave
-    4. Harborside
-    5. Newport PATH
-    6. Marin Light Rail
-    7. Columbus Drive
-    8. Newport Pkwy
-    9. Newark Ave
-    10. City Hall
-
-7. Total and median distances (km) covered per month
------------------------------------------------------
-I created some new calculated fields , start and end points of a journey and used the distance function to calculate the distance for each trip based on their start and end points. From 810 to 880 meters seems to be the median for each month, very little variations in median distance covered but total distance covered in July, August and September recorded the highest numbers. Once again it shows the trips taken are seasonal.
-
-8. Trip Counts by Gender by month
-----------------------------------
-
-Looks like more men use the bikes than women by a factor of 3 to 4 times. But there a quite a few riders who do not disclose their gender.
+10. Median and Total distance covered (km) by month  
+---------------------------------------------------------------------
+I created some new calculated fields, 
+start and end points of a journey and used the distance
+function to calculate the distance for each trip based on
+their start and end points. From 810 to 880 meters seems
+to be the median for each month, very little variations 
+in median distance covered but total distance covered in 
+July, August and September recorded the highest numbers.
+Once again it shows the trips taken are seasonal.
 
 
-9. Trip counts by age in 5 year bins
--------------------------------------
-I created brackets of 5 year gaps for the age of the riders.
-The 30-35 year age group is the most represented. But there are some weird outliers which can be seen in the graph. 2 in the 100-105, 1 in 110-115, 57 in the 115-120 and 137 in the 130-135 brackets. The low counts can be explained away as typographical errors but the higher numbers in the higher age brackets beyond 100 are hard to explain.
-
-10. Usage by Rider's Age
--------------------------
-This plot shows the ages of riders (ungrouped). Something that sticks out is the number of riders who declare their age as 50. Quite an anomaly.
-
-11. Total trips, total distance (km), Avg distance, Avg trip durationby customer Type
+11. Total trips, total distance (km), Avg distance, Avg trip duration by customer Type
 --------------------------------------------------------------------------------------
-Its interesting that average trip duration is higher for customers than subscribers, could be customers are casual users who sightseeing or doing multi stops. But in terms of total distance Subsribers travel more. More likely commuters who ride everyday. And subscribers do more trips overall than subscribers. If start and end times of the day and day of the week are available further analysis could shed more light on these figures.
+Its interesting that average trip duration is higher for customers than subscribers, 
+It could be customers are casual users who are sightseeing and/or doing multiple stops.
+But in terms of total distance Subsribers travel more.
+More likely commuters who ride everyday. 
+And subscribers do more trips overall than customers.
+If start and end times of the day and day of the week are available
+further analysis could shed more light on these figures.
 
-12. Total Trip duration and Distance covered per bike
-----------------------------------------------------------
-This tells the maintenance team how much usage each bike received over 2019 year.
+12. Total Trip duration and Distance covered by each bike
+--------------------------------------------------------------------------
+This tells the maintenance team how much usage each bike received over the year 
+in km and the number of times it has been used.
+The first column shows distance in km and the second shows the number of times that bike was used
+for a trip
 
 13. Average distance (km), Median distance (km) and Number of trips per bike
 -----------------------------------------------------------------------------
 This tells the maintenance team more information to decide which bikes will be due for maintenance.
-
+The first column show the Total distance in km, the second Avg Distance in km and
+ the third shows the number of trips for each bike.
 
 
 **Finally, create your final presentation**
